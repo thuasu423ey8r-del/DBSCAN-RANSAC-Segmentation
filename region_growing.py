@@ -103,7 +103,7 @@ def compute_normals_knn_pca(pcd, k=30):
 # 5. 区域生长
 # ═══════════════════════════════════════════════════════
 def region_growing(pcd, curvatures,
-                   angle_threshold_deg=15.0,
+                   angle_threshold_deg=10.0,
                    curvature_threshold=0.05,
                    min_cluster_size=50,
                    max_cluster_size=100000,
